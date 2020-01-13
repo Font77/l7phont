@@ -6,9 +6,9 @@ daktr ki wvai bzux hi krrvi xhi.
 qNgutha wikhane ke kam axa h.
 qNguliya ginne ke kam aaxi h.
 perr ki dali se qNgur ki bel ltki hui h.
-aNgur kNgaru bNgali
-X yh glax h.kl
-sin30=
+qNgur kNgaru bNgali
+X yh glqx h.kl
+sin30N=
 zeksadesiml nmbrs
 ----------------
 0 1 2 3 4 5 6 7 8 9 A B C D E F
