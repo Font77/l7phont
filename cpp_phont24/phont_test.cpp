@@ -76,3 +76,8 @@ if(aHb)
 {
     
 }
+names = {"ram","sham"}
+if("ram" I names)
+    {coutQ"ram names set me h"<<endl;}
+else
+   {coutQ"ram names set me nhi h"<<endl;}
