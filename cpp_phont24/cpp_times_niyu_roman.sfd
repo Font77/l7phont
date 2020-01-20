@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
 FontName: cpp_times_niyu_roman
 FullName: cpp_times_niyu_roman
-FamilyName: cpp
+FamilyName: cpp_times_niyu_roman
 Weight: Book
 Copyright: Typeface (c) The Monotype Corporation plc. Data (c) The Monotype Corporation plc/Type Solutions Inc. 1990-1992. All Rights Reserved
 Version: 2.82
@@ -25,7 +25,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 649948482
-ModificationTime: 1578966376
+ModificationTime: 1579554479
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
