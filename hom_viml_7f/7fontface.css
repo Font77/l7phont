@@ -1,0 +1,63 @@
+/*
+.main-font {font-family: Georgia, "Times New Roman", Times, serif;} 
+Computer fonts 2 categories, 1)bit-mapped 2)stroked.
+a browser is expected to be able to at least render 3 types of fonts:
+serif fonts : little stroke on the tips and edges of the letters and symbols
+sans-serif fonts : no serif : don’t have the little strokes on the tips and edges
+monospace fonts : same width
+.main-font {font-family: Georgia, "Times New Roman", Times, serif;}
+In this example, if “Georgia” is the installed font,
+browser will use it when rendering the page.
+If it’s not installed, then “Times New Roman” will be used.
+If that’s not installed, then “Times” will be used.
+If none of those fonts are present, a generic serif font will be used.
+To use the @font-face complete the following steps:
+
+Obtain, create or have created your custom font file.
+Upload your font files to your server under your Web root.
+Add code like the following to your CSS files or within <style> tags of your HTML header:
+@font-face
+{
+font-family: myFancyFont;
+src: url('myFancyFont.ttf'),
+url('myFancyFont.eot');
+}
+
+Put the new font in your style sheet as shown in the following example:
+h1 { font-family: 'myFancyFont', Times, serif; }
+https://fonts.google.com/specimen/Delius+Unicase?selection.family=Delius+Unicase
+
+cufon 3 phases:
+1) cufon system is an open-source, 2-phase font delivery system
+that works on nearly all browsers. Unlike the @font-face rule,
+you don’t have to wait until browser developers catch up with
+emerging standards. It’s pretty fast, and font look is
+consistent across devices and platforms.
+1st phase of the cufon system is font generation.
+You begin by uploading your standard format font file(s) into
+cufon generator. You can do this online or download your own
+font generator for use on your own server.
+font generator will create a JavaScript file that consists
+essentially of rendering instructions.
+
+2nd phase is rendering phase. This takes place when 
+browser uses cufon rendering engine to display generated fonts.
+
+To use cufon font system:
+
+Generate your JavaScript font files with cufon generator.
+Upload generated JavaScript font file(s) and 
+cufon-yui.js rendering engine to your server.
+Add code like following to your Web page:
+<!-- Include rendering engine -->
+<script src="cufon-yui.js" type="text/javascript"></script>
+<!-- Include the generated fonts -->
+<script src="myFancyFont.font.js" type="text/javascript"></script>
+<!-- Render the font based on the desired tag -->
+<script type="text/javascript">
+Cufon.replace('h1');
+</script>
+cufon system supports  various framework libraries such as jQuery,
+so you could use cufon object to apply your fonts using 
+jQuery selector syntax.
+*/
