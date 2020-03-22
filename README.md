@@ -5,5 +5,5 @@ hm 3 prkar ke fonts bnaTe h.
 
 seva me,
 viml
-fb.me/heksoin , vk.com/etphor , http://phor.school.blog
+http://fb.me/heksoin , http://vk.com/etphor , http://phor.school.blog
 
